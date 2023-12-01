@@ -2,6 +2,17 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
 }
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath ("com.android.tools.build:gradle:7.1.0")
+        classpath ("org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.21")
+    }
+}
 
 android {
     namespace = "com.example.prevyearmidsemquesbank"
@@ -48,5 +59,7 @@ dependencies {
     implementation("androidx.navigation:navigation-ui-ktx:2.5.3")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
+    implementation ("androidx.fragment:fragment:1.3.0")
+
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 }
