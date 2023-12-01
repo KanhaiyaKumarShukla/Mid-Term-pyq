@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PrevYearMidSemQuesBank</string>
+    <string name="appName">Mid Sem "\n" PYQs</string>
+    <string name="tv_welcome">Welcome</string>
+    <string name="year_23">2023</string>
+    <string name="year_22">2022</string>
+    <string name="year_21">2021</string>
+    <string name="year_20">2020</string>
+    <string name="title_activity_year23">year_23_Activity</string>
+
+
+
+    <string name="title_activity_subject233">subject_23_3_Activity</string>
+    <string name="subject1">Subject1</string>
+    <string name="subject2">Subject2</string>
+    <string name="subject3">Subject3</string>
+    <string name="subject4">Subject4</string>
+    <string name="subject5">Subject5</string>
+</resources>
